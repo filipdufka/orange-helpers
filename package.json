@@ -1,0 +1,13 @@
+{
+  "name": "com.filipdufka.orange-helpers",
+  "version": "1.0.0",
+  "displayName": "Orange Helpers",
+  "description": "Helper Package for Fruit Bowl to work.",
+  "keywords": [
+    "helpers"
+  ],
+  "author": {
+    "name": "Filip Dufka",
+    "email": "filipdufka@gmail.com"
+  }
+}
