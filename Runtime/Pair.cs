@@ -1,5 +1,4 @@
 namespace FruitBowl {
-	[System.Obsolete("Use Tuples instead")]
 	public class Pair<T> {
 		public T a;
 		public T b;
@@ -15,7 +14,6 @@ namespace FruitBowl {
 		}
 	}
 
-	[System.Obsolete("Use Tuples instead")]
 	public class Pair<T, U> {
 		public T a;
 		public U b;
