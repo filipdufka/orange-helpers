@@ -1,5 +1,5 @@
 namespace FruitBowl {
-	[Obsolete("Use Tuple types instead.", false)]
+	[System.Obsolete("Use Tuple types instead.")]
 	public class Pair<T> {
 		public T a;
 		public T b;
@@ -15,6 +15,7 @@ namespace FruitBowl {
 		}
 	}
 
+	[System.Obsolete("Use Tuple types instead.")]
 	public class Pair<T, U> {
 		public T a;
 		public U b;
