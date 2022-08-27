@@ -1,4 +1,5 @@
 namespace FruitBowl {
+	[Obsolete("Use Tuple types instead.", false)]
 	public class Pair<T> {
 		public T a;
 		public T b;
