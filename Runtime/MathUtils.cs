@@ -10,7 +10,7 @@ namespace FruitBowl.Orange
         {
             // FIXME: XY only for now
             Vector2 v = segmentA.Item1 - segmentA.Item2;
-            Vector2 u = segmentB.Item2 - segmentB.Item2;
+            Vector2 u = segmentB.Item1 - segmentB.Item2;
             Vector2 w = segmentA.Item2 - segmentB.Item2;
             Vector2 xv = new Vector2(v.y, -v.x);
             Vector2 xu = new Vector2(u.y, -u.x);
